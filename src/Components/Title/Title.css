@@ -1,0 +1,11 @@
+.title{
+    color: #8643DC !important;
+    display: inline-block;
+}
+.title::after{
+    content: '';
+    display: block;
+    width: 80%;
+    background-color: #8643DC;
+    height: 3px;
+}
